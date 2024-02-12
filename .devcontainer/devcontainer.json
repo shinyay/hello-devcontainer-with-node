@@ -11,7 +11,8 @@
 			"settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"stylelint.vscode-stylelint"
 			]
 		}
 	},
