@@ -2,8 +2,10 @@
 // For format details, see https://aka.ms/devcontainer.json
 // README: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
+	"name": "Playground - Node.js",
+	"dockerComposeFile": "compose.yaml",
+	"service": "playground-node",
+	"workspaceFolder": "/workspace",
 
 	// "features": {},
 	"customizations": {
@@ -24,9 +26,10 @@
 			"onAutoForward": "notify"
 		}
 	},
-	"postCreateCommand": "yarn install"
+	"postCreateCommand": "yarn install",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+	"remoteUser": "vscode"
 }
 
