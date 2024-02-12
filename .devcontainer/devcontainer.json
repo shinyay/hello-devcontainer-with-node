@@ -12,7 +12,8 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"dbaeumer.vscode-eslint",
-				"stylelint.vscode-stylelint"
+				"stylelint.vscode-stylelint",
+				"esbenp.prettier-vscode"
 			]
 		}
 	},
