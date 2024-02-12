@@ -1,0 +1,1 @@
+FROM node:1.6-bookworm-slim
