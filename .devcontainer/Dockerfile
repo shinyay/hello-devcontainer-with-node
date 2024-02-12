@@ -1,1 +1,1 @@
-FROM node:1.6-bookworm-slim
+FROM node:21.6-bookworm-slim
