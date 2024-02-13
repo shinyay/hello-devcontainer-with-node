@@ -15,5 +15,8 @@ FROM node:21.6-bookworm-slim
 
 RUN apt-get update \
     && apt-get -y install curl git \
-    && npm install -g npm
+    && npm install --global global npm \
+    # Yo Code - Extension and Customization Generator
+    # (https://www.npmjs.com/package/generator-code)
+    && npm install --global yo generator-code
 USER node
