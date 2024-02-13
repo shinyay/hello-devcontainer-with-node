@@ -2,7 +2,14 @@ services:
   playground-node:
     container_name: 'node'
     hostname: 'node'
-    build: .
+    user: $UID:$GID
+    build:
+      context: .
+      args:
+        UID: $UID
+        GID: $GID
+        USERNAME: $USERNAME
+      dockerfile: Dockerfile
     restart: always
     working_dir: '/workspace'
     tty: true
@@ -10,4 +17,3 @@ services:
       - type: bind
         source: ../workspace
         target: /workspace
-      # - ..:/workspace
