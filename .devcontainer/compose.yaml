@@ -10,3 +10,4 @@ services:
       - type: bind
         source: ../workspace
         target: /workspace
+      # - ..:/workspace
