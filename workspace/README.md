@@ -8,6 +8,10 @@
 yo code
 ```
 
+```shell
+npx vsce package
+```
+
 ## Demo
 
 ## Features
