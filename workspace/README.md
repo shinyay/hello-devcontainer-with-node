@@ -4,6 +4,10 @@
 
 ## Description
 
+```shell
+yo code
+```
+
 ## Demo
 
 ## Features
