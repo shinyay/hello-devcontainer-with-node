@@ -27,8 +27,8 @@ npx vsce package
 
 ## References
 
+- [Extension API](https://code.visualstudio.com/api)
 - [VS Code API](https://code.visualstudio.com/api/references/vscode-api)
-- []()
 
 ## Licence
 
