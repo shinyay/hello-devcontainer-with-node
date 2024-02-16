@@ -18,8 +18,8 @@ RUN apt-get update \
     && npm install --global global npm \
     # Yo Code - Extension and Customization Generator
     # (https://www.npmjs.com/package/generator-code)
-    && npm install --global yo generator-code \
+    && npm install --global yo generator-code
     # figlet
     # (https://www.npmjs.com/package/figlet)
-    && npm install figlet
+    # && npm install --global figlet
 USER node
