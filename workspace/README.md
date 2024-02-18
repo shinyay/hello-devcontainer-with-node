@@ -30,6 +30,11 @@ yo code
 ? Which package manager to use? npm
 ```
 
+### Packaging and Publishing Visual Studio Code extensions
+
+- [microsoft/vscode-vsce](https://github.com/microsoft/vscode-vsce)
+- [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+
 ```shell
 npx vsce package
 ```

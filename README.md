@@ -1,6 +1,6 @@
-# Name
+# Hello Dev Containers with Node.js
 
-Overview
+This project configures for Node.js development environment on Dev Containers.
 
 ## Description
 
