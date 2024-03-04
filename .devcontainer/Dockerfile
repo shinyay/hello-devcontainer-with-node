@@ -13,6 +13,8 @@ FROM node:21.6-bookworm-slim
 #     && apt-get -y install curl git \
 #     && npm install -g npm
 
+WORKDIR /workspace
+
 RUN apt-get update \
     && apt-get -y install curl git \
     && npm install --global global npm \
